@@ -1,0 +1,1063 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="google-site-verification" content="ftFOlJETX-2KNjaPh8W6s8lhigItRuu9fOmjHZZ0nY0" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Listening Test</title>
+  </head>
+  <style type="text/css">
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  audio {
+    width: 100%;
+  }
+
+  thead > tr > th:first-child {
+    width: 99px;
+  }
+  </style>
+  <body>
+    <header class="header">
+      <div class="jumbotron bg-secondary text-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h2><a class="text-light" "Listening Test">  Listening Test</h2>
+              <p>
+                <div class="row">
+                  <div class="col-md col-sm-12"><a class= "text-light" "Thank you!!!">Thank you!!!</a> </div>
+                </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row" id="result">
+          <div class="col-md-12">
+            <hr>
+            <h2>There are 4 sets of listening tests in total. Please listen and provide your feedbacks in the excel file.</h2>
+            <hr>
+            <hr>
+            <h2>Test 1</h2>
+            <h5>Please select the better sample between the two models (model1 and model2) based on emotion, speech quality, and naturalness. NP indicates no preference. </h5>
+            <hr>
+            <h5><small><strong>Sample 1 (Emotion: Surprise) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_0ang/0013_000705.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_0angry/0013_Mel_05.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 2 (Emotion: Surprise + 30 % Angry) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_30ang/0019_Mel_06.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_30ang/0019_000006.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 3 (Emotion: Surprise + 60 % Angry) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_60ang/0013_Mel_19.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_60ang/0013_000019.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+              <hr>
+            <h5><small><strong>Sample 4 (Emotion: Surprise + 90 % Angry) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_90ang/0019_000014.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_90ang/0019_Mel_14.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 5 (Emotion: Surprise) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_0happy/0013_Mel_05.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_0happy/0013_000005.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+              <hr>
+            <h5><small><strong>Sample 6 (Emotion: Surprise + 30 % Happy) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_30happy/0013_000009.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_30happy/0013_Mel_09.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 7 (Emotion: Surprise + 60 % Happy) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_60happy/0019_Mel_06.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_60happy/0019_000006.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 8 (Emotion: Surprise + 90 % Happy) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_90happy/0019_Mel_18.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_90happy/0019_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 9 (Emotion: Surprise) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_0sad/0013_Mel_07.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_0sad/0013_000007.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+              <hr>
+            <h5><small><strong>Sample 10 (Emotion: Surprise + 30 % Sad) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_30sad/0019_000004.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_30sad/0019_Mel_04.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 11 (Emotion: Surprise + 60 % Sad) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_60sad/0013_Mel_18.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_60sad/0013_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 12 (Emotion: Surprise + 90 % Sad) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/mix/100sup_90sad/0013_Mel_20.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test1/our/100sup_90sad/0013_000020.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h2>Test 2</h2>
+            <h5>Please select the better sample between the two models (model1 and model2) based on emotion, speech quality, and naturalness. NP indicates no preference. </h5>
+            <hr>
+            <h5><small><strong>Sample 1 (Emotion: Surprise) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_0ang/0013_000705.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_0ang/0013_000705.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 2 (Emotion: Surprise + 30 % Angry) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_30ang/0013_000019.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_30ang/0013_000019.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 3 (Emotion: Surprise + 60 % Angry) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_60ang/0019_000008.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_60ang/0019_000008.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+              <hr>
+            <h5><small><strong>Sample 4 (Emotion: Surprise + 90 % Angry) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_90ang/0019_000014.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_90ang/0019_000014.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 5 (Emotion: Surprise) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_0happy/0019_000004.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_0happy/0019_000004.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+              <hr>
+            <h5><small><strong>Sample 6 (Emotion: Surprise + 30 % Happy) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_30happy/0013_000005.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_30happy/0013_000005.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 7 (Emotion: Surprise + 60 % Happy) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_60happy/0013_000009.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_60happy/0013_000009.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 8 (Emotion: Surprise + 90 % Happy) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_90happy/0019_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_90happy/0019_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 9 (Emotion: Surprise) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_0sad/0019_000004.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_0sad/0019_000004.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+              <hr>
+            <h5><small><strong>Sample 10 (Emotion: Surprise + 30 % Sad) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_30sad/0019_000007.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_30sad/0019_000007.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 11 (Emotion: Surprise + 60 % Sad) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_60sad/0013_000020.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_60sad/0013_000020.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 12 (Emotion: Surprise + 90 % Sad) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/cosy/100sup_90sad/0013_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test2/our/100sup_90sad/0013_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h2>Test 3</h2>
+            <h5>Please rate the emotional speech quality ranging from 1 (bad), 2 (poor), 3 (fair), 4 (good) and 5 (excellent) for the following samples. Please choose the best one and the worst one according to the perception of desired emotion types. </h5>
+            <hr>
+            <h5><small><strong>Sample 1 (Emotion: Outrage) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                    <th>Model 3</th>
+                    <th>Model 4</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_0ang/0013_000019.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_30ang/0013_000019.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_60ang/0013_000019.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_90ang/0013_000019.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <h5><small><strong>Sample 2 (Emotion: Delight) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                    <th>Model 3</th>
+                    <th>Model 4</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_90happy/0019_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_60happy/0019_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_30happy/0019_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_0happy/0019_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <h5><small><strong>Sample 3 (Emotion: Disappointment) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                    <th>Model 3</th>
+                    <th>Model 4</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_0sad/0013_000007.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_30sad/0013_000007.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_60sad/0013_000007.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test3/100sup_90sad/0013_000007.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h2>Test 4</h2>
+            <h5>Please rate the emotional speech quality ranging from 1 (bad) to 5 (excellent) for the following samples. </h5>
+            <hr>
+            <h5><small><strong>Sample 1 (Emotion: Outrage) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                    <th>Model 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_ang/cosy/0013_000705.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_ang/mix/0013_Mel_05.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_ang/our/0013_000705.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 2 (Emotion: Disappointment) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                    <th>Model 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_sad/our/0013_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_sad/mix/0013_Mel_18.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_sad/cosy/0013_000018.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+            <h5><small><strong>Sample 3 (Emotion: Delight) </strong></small></h4>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Model 1</th>
+                    <th>Model 2</th>
+                    <th>Model 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Samples</th>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_happy/cosy/0013_000009.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_happy/mix/0013_Mel_09.mel.npy_ref_Surprise_TTS.npy_gen.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls>
+                        <source src="./test4/sup_happy/our/0013_000009.wav" type="audio/wav" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <hr>
+          </div>
+      </div>
+        <hr>
+      </div>
+    </main>
+    <footer class="bg-secondary text-light mt-4 pt-3 pb-2 " >
+      <div class="container">
+        <p class="text-center">
+          <small>
+            <br>
+            <br>
+            <a class="text-light"><strong>Xiaoxue Gao</strong></a> | Gao_Xiaoxue@i2r.a-star.edu.sg
+          </small>
+        </p>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
